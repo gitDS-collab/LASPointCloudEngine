@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>LAS Point Cloud Engine</Name>
+    <Assembly>__ASSEMBLY_PATH__</Assembly>
+    <AddInId>3388B10C-147D-4DB4-9935-693CFA5BFA7A</AddInId>
+    <FullClassName>LASPointCloudEngine.App</FullClassName>
+    <VendorId>DLSA</VendorId>
+    <VendorDescription>Standalone LAS point-cloud engine</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Name>Import LAS Point Cloud</Name>
+    <Assembly>__ASSEMBLY_PATH__</Assembly>
+    <AddInId>0B42F7B9-0E52-4168-8E99-E6AA083A8B33</AddInId>
+    <FullClassName>LASPointCloudEngine.ImportLasCommand</FullClassName>
+    <VendorId>DLSA</VendorId>
+    <VendorDescription>Import a LAS external point-cloud link</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Name>Create Indexed RCP from LAS</Name>
+    <Assembly>__ASSEMBLY_PATH__</Assembly>
+    <AddInId>7BAF9C6D-D6D4-4F9A-B5DD-0C276A8B10EB</AddInId>
+    <FullClassName>LASPointCloudEngine.CreateIndexedRcpFromLasCommand</FullClassName>
+    <VendorId>DLSA</VendorId>
+    <VendorDescription>Create a high-detail ReCap RCP/RCS point cloud from LAS</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Name>Link Indexed RCP/RCS</Name>
+    <Assembly>__ASSEMBLY_PATH__</Assembly>
+    <AddInId>0A0DD5CF-8A60-4F77-A62B-39CE36965445</AddInId>
+    <FullClassName>LASPointCloudEngine.LinkIndexedRcpCommand</FullClassName>
+    <VendorId>DLSA</VendorId>
+    <VendorDescription>Link a native indexed ReCap RCP/RCS point cloud</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Name>RCP Indexing Progress</Name>
+    <Assembly>__ASSEMBLY_PATH__</Assembly>
+    <AddInId>811A8F77-E970-42D7-97A7-77B71FAB6D7E</AddInId>
+    <FullClassName>LASPointCloudEngine.ReCapConversionStatusCommand</FullClassName>
+    <VendorId>DLSA</VendorId>
+    <VendorDescription>Show live ReCap LAS-to-RCP indexing progress</VendorDescription>
+  </AddIn>
+</RevitAddIns>
